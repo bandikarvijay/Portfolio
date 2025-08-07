@@ -52,7 +52,7 @@ function Contact() {
             <FaLinkedin className="icon" />
             <span>LinkedIn</span>
           </a>
-          <a href="/resume.pdf" className="icon-box" target="_blank" rel="noreferrer">
+          <a href="./B_V_VIJAYA_BHASKAR.pdf" className="icon-box" target="_blank" rel="noreferrer">
             <FaFileAlt className="icon" />
             <span>Resume</span>
           </a>
