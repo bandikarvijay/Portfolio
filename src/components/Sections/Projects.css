@@ -1,0 +1,63 @@
+/* Projects.css */
+
+.projects-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.project-box {
+  background: #1e1e1e;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+  width: 50%;
+}
+
+.carousel {
+  margin-bottom: 20px;
+}
+
+.carousel-image {
+  width: 100%;
+  max-width: 600px; /* ⬅️ Smaller image size to avoid cutting */
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.project-details {
+  text-align: center;
+  color: #fff;
+}
+
+.project-buttons {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.project-btn {
+  background-color: #ff6600;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #000;
+  transition: background 0.3s;
+}
+
+.project-btn:hover {
+  background-color: #ffaa00;
+}
+
+.title {
+  text-align: center;
+  color: #ff6600;
+  font-size: 32px;
+  margin-bottom: 24px;
+  font-weight: bold;
+}
