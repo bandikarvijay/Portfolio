@@ -1,9 +1,23 @@
-/* Projects.css */
+
 
 .projects-section {
-  max-width: 1000px;
+  max-width: 1000px;         
   margin: 0 auto;
   padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px;
+  justify-content: center;    
+  align-items: start;
+}
+
+.title {
+  text-align: center;
+  color: #ff6600;
+  font-size: 32px;
+  margin-bottom: 24px;
+  font-weight: bold;
+  grid-column: 1 / -1; 
 }
 
 .project-box {
@@ -11,7 +25,14 @@
   border-radius: 12px;
   padding: 20px;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
-  width: 50%;
+  width: 100%;
+  max-width: 450px;           
+  min-height: 480px;          
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin: 0 auto;
 }
 
 .carousel {
@@ -20,7 +41,7 @@
 
 .carousel-image {
   width: 100%;
-  max-width: 600px; /* ⬅️ Smaller image size to avoid cutting */
+  max-width: 400px;          
   height: auto;
   margin: 0 auto;
   display: block;
@@ -30,6 +51,19 @@
 .project-details {
   text-align: center;
   color: #fff;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-details h2 {
+  margin-bottom: 10px;
+}
+
+.project-details p {
+  margin-bottom: 10px;
+  line-height: 1.5;
 }
 
 .project-buttons {
@@ -54,10 +88,14 @@
   background-color: #ffaa00;
 }
 
-.title {
-  text-align: center;
-  color: #ff6600;
-  font-size: 32px;
-  margin-bottom: 24px;
-  font-weight: bold;
+/* Responsive: stack vertically on smaller screens */
+@media (max-width: 900px) {
+  .projects-section {
+    grid-template-columns: 1fr;
+  }
+
+  .project-box {
+    max-width: 100%;
+    min-height: auto;
+  }
 }
