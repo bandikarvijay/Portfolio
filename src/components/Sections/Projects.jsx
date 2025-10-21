@@ -52,12 +52,12 @@ const Projects = () => {
         </Slider>
 
         <div className="project-details">
-          <h2>MERN Stack Project Sharing Platform</h2>
+          <h2>Project Drop</h2>
           <p>
             Project Drop is a full-featured web app that lets users upload and explore categorized projects
             (Web, Data, Mobile), view thumbnails, preview code files, and download projects.
           </p>
-          <p><strong>Technologies:</strong> React.js, Node.js, Express.js, MongoDB, JWT, Firebase Storage</p>
+          <p><strong>Tech Stack:</strong> React.js, Node.js, Express.js, MongoDB, JWT, Firebase Storage</p>
 
           <div className="project-buttons">
             <a href="https://project-drop-bice.vercel.app/" target="_blank" rel="noopener noreferrer">
@@ -81,18 +81,18 @@ const Projects = () => {
         </Slider>
 
         <div className="project-details">
-          <h2>AI Chat Assistant</h2>
+          <h2>Swipe Mood</h2>
           <p>
-            An intelligent chatbot web app built using OpenAI API and React.js, offering real-time conversational
-            AI responses with history management.
+SwipeMood is a collaborative music-listening platform that lets friends create or join rooms, add YouTube songs, and listen together in perfect sync — all in real-time.
           </p>
-          <p><strong>Technologies:</strong> React.js, Node.js, Express.js, OpenAI API, Tailwind CSS</p>
+          <p><strong>Tech Stack:</strong> React.js, Axios, Tailwind / Custom CSS,
+          Node.js, Express.js, Socket.io, MongoDB, Mongoose</p>
 
           <div className="project-buttons">
-            <a href="https://your-chat-ai-demo.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <a href="http://swipemood-sage.vercel.app/" target="_blank" rel="noopener noreferrer">
               <button className="project-btn">Live Demo</button>
             </a>
-            <a href="https://github.com/yourusername/AI-Chat-App" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/bandikarvijay/swipemood" target="_blank" rel="noopener noreferrer">
               <button className="project-btn">GitHub</button>
             </a>
           </div>
