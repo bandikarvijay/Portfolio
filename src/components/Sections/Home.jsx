@@ -35,7 +35,7 @@ const Home = () => (
 
 <div className="button-group">
 <a
-  href="./B_V_VIJAYA_BHASKAR.pdf"
+  href="./B_V_Vijaya_Bhaskar_Resume.pdf"
   target="_blank"
   rel="noopener noreferrer"
   className="btn"
