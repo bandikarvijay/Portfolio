@@ -88,6 +88,10 @@
   background-color: #ffaa00;
 }
 
+.project-details h2 {
+  color: #ff6600;
+}
+
 /* Responsive: stack vertically on smaller screens */
 @media (max-width: 900px) {
   .projects-section {
