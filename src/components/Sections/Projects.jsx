@@ -89,7 +89,7 @@ SwipeMood is a collaborative music-listening platform that lets friends create o
           Node.js, Express.js, Socket.io, MongoDB, Mongoose</p>
 
           <div className="project-buttons">
-            <a href="http://swipemood-sage.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <a href="https://swipe-mood.vercel.app/" target="_blank" rel="noopener noreferrer">
               <button className="project-btn">Live Demo</button>
             </a>
             <a href="https://github.com/bandikarvijay/swipemood" target="_blank" rel="noopener noreferrer">
