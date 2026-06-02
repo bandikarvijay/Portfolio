@@ -14,10 +14,10 @@ const project1Images = [
 ];
 
 const project2Images = [
-  '/swipe1.png',
-  '/swipe2.png',
-  '/swipe3.png',
-  '/swipe4.png'
+  '/Swipe1.png',
+  '/Swipe2.png',
+  '/Swipe3.png',
+  '/Swipe4.png'
 ];
 
 const Projects = () => {
