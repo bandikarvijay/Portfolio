@@ -92,7 +92,7 @@ SwipeMood is a collaborative music-listening platform that lets friends create o
             <a href="https://swipe-mood.vercel.app/" target="_blank" rel="noopener noreferrer">
               <button className="project-btn">Live Demo</button>
             </a>
-            <a href="https://github.com/bandikarvijay/swipemood" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/bandikarvijay/Swipe-Mood" target="_blank" rel="noopener noreferrer">
               <button className="project-btn">GitHub</button>
             </a>
           </div>
